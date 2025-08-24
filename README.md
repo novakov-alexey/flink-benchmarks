@@ -2,7 +2,7 @@
 
 ## Diff with main repository
 
-This fork maintains ScalaMinibecnhmark, which can be run by the following command:
+This fork maintains ScalaMinibenchmark which can be run by the following command:
 
 ```scala
  mvn package -Dflink.version=2.1.0 exec:exec \
