@@ -1,5 +1,17 @@
 # flink-benchmarks
 
+## Diff with main repository
+
+This fork maintains ScalaMinibecnhmark, which can be run by the following command:
+
+```scala
+ mvn package -Dflink.version=2.1.0 exec:exec \
+  -Dbenchmarks="org.apache.flink.benchmark.ScalaMiniBenchmarks" -DskipTests=true
+```
+
+__Original README content:__
+
+
 This repository contains sets of micro benchmarks designed to run on single machine to help 
 [Apache Flink's](https://github.com/apache/flink) developers assess performance implications of 
 their changes. 
